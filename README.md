@@ -28,5 +28,5 @@
 
 ## Ссылки
 
-<!-- TODO: вставить URL GitHub-репозитория после создания -->
-<!-- TODO: добавить ссылку на GitHub Pages после деплоя -->
+- GitHub: https://github.com/psyodyssey/ono-tebe-nado
+- GitHub Pages: TODO
