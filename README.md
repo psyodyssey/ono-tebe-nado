@@ -29,4 +29,4 @@
 ## Ссылки
 
 - GitHub: https://github.com/psyodyssey/ono-tebe-nado
-- GitHub Pages: TODO
+- GitHub Pages: https://psyodyssey.github.io/ono-tebe-nado/
