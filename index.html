@@ -12,23 +12,19 @@
     <!-- HEADER -->
     <header class="header">
       <nav class="header__menu">
-        <ul class="header__links-list">
-          <li class="header__links-list-item">
-            <a class="header__link header__link_active">главная</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#lots" class="header__link">посмотреть лоты</a>
-          </li>
-          <li class="header__links-list-item">
-            <a href="#about" class="header__link">об аукционе</a>
-          </li>
-        </ul>
+        <a class="header__link header__link_active">главная</a>
+        <span class="header__marker"></span>
+        <a href="#lots" class="header__link">посмотреть лоты</a>
+        <span class="header__marker"></span>
+        <a href="#about" class="header__link">об аукционе</a>
       </nav>
       <div class="header__logo">
         <img class="header__logo-image" src="./images/logo.svg" alt="Логотип Оно тебе надо" />
       </div>
       <address class="address">
-        Адрес: ул. Большая Никитская, д. 16, стр. 1
+        <span class="address__phone">+9 999 555 5555</span>
+        <a class="address__email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <span class="address__place">наб. Принсенграхт 263-<br>265, Амстердам</span>
       </address>
     </header>
 
@@ -38,24 +34,24 @@
       <h1 class="cover__title">
         <span class="aligned-text">ОНО</span>
         <span class="aligned-text aligned-text_center">ТЕБЕ</span>
-        <span class="aligned-text aligned-text_right">НАДО</span>
+        <span class="aligned-text aligned-text_right">НА<span class="aligned-text__letter">Д</span><span class="aligned-text__letter-o">О</span></span>
       </h1>
       <div class="description">
-        <p class="description__text">на аукционе «Оно тебе надо»</p>
-        <a href="#lots" class="bet-button">Сделать ставку</a>
+        <p class="description__text"><span class="description__shift-1">аукцион вещей,</span> в <span class="description__shift-2">которые никто не</span> <span class="description__shift-4">верил</span></p>
+        <a href="#lots" class="bet-button"><span class="bet-button__text"><span class="bet-button__shift-sd">Сд</span><span class="bet-button__shift-1">елать</span> <span class="bet-button__shift-2">ставку</span></span></a>
       </div>
     </section>
 
     <!-- LOTS -->
     <section class="lots" id="lots">
-      <h2 class="lots__heading">Лоты</h2>
+      <h2 class="lots__heading">Ло<span class="lots__heading-shift">т<span class="lots__heading-letter">ы</span></span></h2>
       <ul class="lots__card-list">
         <li class="lots__card-list-item">
           <a href="#" class="card-link">
             <article class="card card_type_film">
-              <h3 class="card__title">Фильм</h3>
+              <h3 class="card__title"><span class="card__shift-left">Фильм</span> режиссёра, <span class="card__shift-left">который</span> бросил <span class="card__shift-left">киношко<span class="card__shift-right-2">лу</span></span></h3>
               <p class="card__text">
-                «Начало», реж. Кристофер Нолан
+                <span class="card__shift-left-2">Не просто</span> бросил, а ушёл<br><span class="card__shift-left-2">с первой</span> лекции. Какой<br><span class="card__shift-up-1"><span class="card__shift-left">была</span><span class="card__shift-right-1"> бы ваш</span><span class="card__shift-right-2">а ставка,</span></span><br><span class="card__shift-up-2"><span class="card__shift-left">если б</span><span class="card__shift-right-1">ы вы не</span> <span class="card__shift-right-2">знали,</span> <span class="card__shift-right-3">что</span></span><br><span class="card__shift-up-3"><span class="card__shift-left-2">режиссёр — Пол Томас</span></span><br><span class="card__shift-up-5"><span class="card__shift-left-2">Андерсон?</span></span>
               </p>
             </article>
           </a>
@@ -63,9 +59,9 @@
         <li class="lots__card-list-item">
           <a href="#" class="card-link">
             <article class="card card_type_book">
-              <h3 class="card__title">Книга</h3>
+              <h3 class="card__title">Книга, <span class="card__shift-right-3">где описан</span> один скучн<span class="card__shift-right-1">ый день</span> из жизни рекламного агента</h3>
               <p class="card__text">
-                «Записки из подполья», Ф. М. Достоевский
+                Объёмом <span class="card__shift-right-1">почти в </span><span class="card__shift-right-3">тысячу</span> страниц. Иногда <span class="card__shift-right-2">без</span> знаков <span class="card__shift-right-1">препинания и с</span> переходами <span class="card__shift-right-2">на</span> древнеанглийский. <span class="card__shift-right-2">В ней</span> одновременно рассказывается <span class="card__shift-right-2">о 16</span> <span class="card__shift-right-3">июня</span> 1904 года и <span class="card__shift-right-2">об</span> истории литературы, начиная с античных времён. И это всё наклады<span class="card__shift-right-2">вается</span> <span class="card__shift-right-2">на</span> эпическую <span class="card__shift-right-2">поэму</span> <span class="card__shift-right-5"><span class="card__shift-left-2">Г</span>омера.</span> Сколько бы <span class="card__shift-right-2">вы</span> <span class="card__shift-right-3">поставили</span> на <span class="card__shift-right-2">«Улисса»</span> <span class="card__shift-right-3">Джеймса</span> Джойса?
               </p>
             </article>
           </a>
@@ -73,15 +69,15 @@
         <li class="lots__card-list-item">
           <a href="#" class="card-link">
             <article class="card card_type_picture">
-              <h3 class="card__title">Картина</h3>
+              <h3 class="card__title">Картина, которую <span class="card__shift-up-1">повторит даже</span> <span class="card__shift-up-2-left-1"><span class="card__shift-5dash">5-</span>летний сын</span> маминой подруги</h3>
               <p class="card__text">
-                «Девятый вал», И. К. Айвазовский
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее <span class="card__shift-right-2">на инфузорию-</span><span class="card__shift-right-1">туфельку. Никаких полей, лесов, котиков... </span><span class="card__shift-right-2">Сколько </span><span class="card__shift-right-1">бы вы на </span>такое поставили, <span class="card__shift-right-2">если бы не знали, что это </span><span class="card__shift-left">— одна из </span>рево<span class="card__shift-right-1">л</span><span class="card__shift-right-2">юционных работ </span><span class="card__shift-right-1">Кандинского?</span>
               </p>
             </article>
           </a>
         </li>
       </ul>
-      <a href="#" class="lots__look-more-link">посмотреть больше</a>
+      <a href="#" class="lots__look-more-link">посмо<span class="card__shift-right-1">треть</span> <span class="card__shift-right-2">бол</span><span class="card__shift-right-3">ьше</span></a>
     </section>
 
     <!-- ABOUT -->
@@ -90,21 +86,12 @@
         <img class="about__logo-image" src="./images/logo-white.png" alt="Логотип Оно тебе надо" />
       </div>
       <div class="about__column">
-        <h2 class="about__title">О проекте</h2>
+        <h2 class="about__title">Об аук<span class="about__title-shift-right">ционе</span></h2>
         <p class="about__text">
-          Здесь вы не встретите очередное пафосное собрание невероятно дорогого
-          антиквариата. Наши лоты вообще не должны были попасть ни на один
-          аукцион. Потому что кому нужен дневник девочки-подростка или картина,
-          которую может нарисовать даже ребёнок? Кому нужны все эти странные
-          вещи, созданные любителями?
+          <span class="about__shift-1">Здесь вы</span> <span class="about__shift-2">не</span> <span class="about__shift-3">встретите</span> <span class="about__shift-4">очередное</span> <span class="about__shift-6">пафосное собрание невероятно</span><br><span class="about__shift-1">дорогого</span> <span class="about__shift-2">антиквариата. Наши</span> <span class="about__shift-5">лоты</span> <span class="about__shift-6">вообще</span> <span class="about__shift-8">не должн</span><span class="about__shift-9">ы</span> <span class="about__shift-12">были попасть</span><br>ни на <span class="about__shift-1">один аук</span><span class="about__shift-2">цион.</span> <span class="about__shift-3">Потому что</span> <span class="about__shift-4">кому нужен</span> <span class="about__shift-6">дневник</span> <span class="about__shift-7">девочк</span><span class="about__shift-8">и-</span><br><span class="about__shift-1">подростка</span> <span class="about__shift-2">или</span> <span class="about__shift-3">картина,</span> <span class="about__shift-5">которую</span> <span class="about__shift-6">мо</span><span class="about__shift-7">жет</span> <span class="about__shift-8">нарисовать</span> <span class="about__shift-10">даже</span> <span class="about__shift-11">ребёнок?</span><br>Кому <span class="about__shift-1">нужны</span> <span class="about__shift-2">все эти стра</span><span class="about__shift-3">нные ве</span><span class="about__shift-5">щи, со</span><span class="about__shift-7">зданные</span> <span class="about__shift-9">люби</span><span class="about__shift-11">телями?</span>
         </p>
         <p class="about__text">
-          Слишком сложные или, наоборот, слишком простые. Опережающие своё время.
-          В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то
-          они казались просто неудачными. Но, несмотря на критику, кажущуюся
-          простоту или сложность, сейчас без этих лотов невозможно представить
-          современную культуру. Когда в эти вещи не верил никто, продолжали
-          верить их создатели. И сейчас эти лоты стали культовыми.
+          <span class="about__shift-1">Сли</span><span class="about__shift-2">шком сло</span><span class="about__shift-5">жные и</span><span class="about__shift-6">ли, наоборот,</span> <span class="about__shift-9">слишко</span><span class="about__shift-10">м простые.</span> <span class="about__shift-12">Опережаю</span><span class="about__shift-13">щие</span><br><span class="about__shift-1">своё время.</span> <span class="about__shift-1">В пух и</span> <span class="about__shift-2">прах растер</span><span class="about__shift-4">занные критик</span><span class="about__shift-7">ами.</span> <span class="about__shift-7">Непринят</span><span class="about__shift-8">ые и</span><br><span class="about__shift-1">непонятые.</span> <span class="about__shift-3">Когда-то они ка</span><span class="about__shift-6">зались</span> <span class="about__shift-7">просто неу</span><span class="about__shift-10">дачны</span><span class="about__shift-11">ми. Но, несмотря</span><br><span class="about__shift-1">на критику,</span> <span class="about__shift-2">каж</span><span class="about__shift-4">ущуюся прост</span><span class="about__shift-5">оту или</span> <span class="about__shift-7">сло</span><span class="about__shift-8">жность, сейчас</span> <span class="about__shift-11">без этих</span> <span class="about__shift-13">л</span><span class="about__shift-14">отов</span><br><span class="about__shift-1">нево</span><span class="about__shift-2">зможно</span> <span class="about__shift-3">представ</span><span class="about__shift-4">ить совр</span><span class="about__shift-5">еменную ку</span><span class="about__shift-8">ль</span><span class="about__shift-10">туру.</span> <span class="about__shift-10">Ког</span><span class="about__shift-12">да в эти ве</span><span class="about__shift-13">щи не</span><br><span class="about__shift-1">верил никто,</span> <span class="about__shift-2">продол</span><span class="about__shift-4">жали</span> <span class="about__shift-5">верить их со</span><span class="about__shift-8">здате</span><span class="about__shift-9">ли. И сейчас эти</span> <span class="about__shift-12">лоты</span><br>стали <span class="about__shift-2">куль</span><span class="about__shift-6">товыми.</span>
         </p>
       </div>
     </section>
@@ -112,15 +99,20 @@
     <!-- FOOTER -->
     <footer class="footer">
       <address class="address">
-        Адрес: ул. Большая Никитская, д. 16, стр. 1
+        <span class="footer__shift-up-1">+9 999 555 5555</span>
+        <br><a class="address__email" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br><span class="card__shift-right-1">наб. Принсенграхт 263-265, Амстердам</span>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a href="#lots" class="footer__menu-link">Лоты</a>
+            <a class="footer__menu-link footer__menu-link_active">главная</a>
           </li>
           <li class="footer__menu-list-item">
-            <a href="#about" class="footer__menu-link">О проекте</a>
+            <a href="#lots" class="footer__menu-link">посмотреть лот<span class="footer__shift-right-1">ы</span></a>
+          </li>
+          <li class="footer__menu-list-item">
+            <a href="#about" class="footer__menu-link">об аукционе</a>
           </li>
         </ul>
       </nav>
